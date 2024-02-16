@@ -19,7 +19,7 @@ server (aka "Tracking Server"). Logged values will be stored on this
 server.
 - `mlflow.set_experiment`: Set a name for the experiment. An experiment
 will be created on the tracking server if one with this name doesn't
-already exits.
+already exist.
 - `with mlflow.start_run`: Start an mlflow "run". An experiment can
 contain zero or more runs. A run is one pass of training a model.
 Within a run you can log things like the parameters  used for training
